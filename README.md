@@ -1,30 +1,64 @@
-# PluginAuth
-
-PluginAuth is a Minecraft plugin for custom authentication using a database.
+# Minecraft Launcher Project
 
 ## Overview
 
-PluginAuth allows server administrators to implement custom player authentication using a database. It is designed to work with CraftBukkit or Spigot servers running Minecraft 1.19.2.
+This project involves the development of a custom Minecraft launcher with the integration of a dedicated server. The launcher aims to provide an enhanced gaming experience with features such as mod management, automatic game updates, and a user-friendly interface.
 
 ## Features
 
-- Custom player authentication
-- Integration with a database for storing player information
-- Event-driven architecture for handling player connections
+- **Custom Launcher**: A personalized launcher designed for Minecraft, offering additional functionalities beyond the standard Minecraft launcher.
+  
+- **Mod Management**: Streamlined mod installation and management directly from the launcher, enhancing the gaming experience.
 
-## Installation
+- **Automatic Updates**: Automatic updates ensure that players always have the latest version of the game without manual intervention.
 
-1. Download the latest release JAR file from the [releases page](https://github.com/votre-utilisateur/PluginAuth/releases).
-2. Place the JAR file into the "plugins" directory of your CraftBukkit or Spigot server.
-3. Start or restart your Minecraft server.
+- **Dedicated Server**: Configuration and management of a dedicated server to host multiplayer Minecraft sessions.
 
-## Configuration
+- **Security Measures**: Implementation of security mechanisms to guarantee the integrity of downloaded files and prevent tampering.
 
-To configure PluginAuth, modify the `config.yml` file in the "plugins/PluginAuth" directory. The configuration file allows you to specify database connection details and other settings.
+## Getting Started
 
-```yaml
-# Example configuration
-database:
-  url: jdbc:mysql://localhost:3306/your_database
-  username: your_database_username
-  password: your_database_password
+### Prerequisites
+
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [Minecraft Forge](https://files.minecraftforge.net/)
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/minecraft-launcher.git
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    # Example command, modify as needed
+    ./gradlew build
+    ```
+
+3. Run the launcher:
+
+    ```bash
+    # Example command, modify as needed
+    ./gradlew run
+    ```
+
+## Usage
+
+1. Launch the Minecraft launcher.
+2. Use the interface to manage mods, configure settings, and initiate the game.
+3. Connect to the dedicated server for multiplayer gameplay.
+
+## Contribution
+
+We welcome contributions! Feel free to submit issues, feature requests, or pull requests. Please follow our [contribution guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+**Note**: Customize this README according to the specifics of your project. Include information about how to configure the server, mod installation instructions, and any other relevant details.
